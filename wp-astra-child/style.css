@@ -1,0 +1,93 @@
+/**
+Theme Name: Cederdorff Astra Child
+Author: Rasmus Cederdorff
+Author URI: http://cederdorff.com
+Description: Child Theme for Astra
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: astra-child
+Template: astra
+*/
+
+body{
+	background: rgb(255, 255, 255);
+	color: rgb(0, 0, 0);
+}
+
+.wp-block-cover{
+	max-width: 100%;
+}
+
+.site-main{
+	padding: 0;
+}
+
+/* ---------- scroll to the top ---------- */
+
+#scrollTop {
+	display: none;
+	position: fixed;
+	bottom: 10px;
+	right: 10px;
+	z-index: 99;
+	font-size: 30px;
+	border: none;
+	outline: none;
+	background-color: #9e9e9e7e;
+	color: rgb(0, 0, 0);
+	cursor: pointer;
+	padding: 7px 20px 0px 20px;
+  }
+
+
+ /* ---------- Gradient på tekst ---------- */ 
+
+  .Grafisk-tekst {
+	  background: linear-gradient(to right, #02D7A7, #043026) !important;
+	  -webkit-text-fill-color: transparent !important; 
+	  -webkit-background-clip: text !important;
+  }
+
+  .Video-tekst {
+	background: linear-gradient(to right, #F43B49, #4A0006) !important;
+	-webkit-text-fill-color: transparent !important; 
+	-webkit-background-clip: text !important;
+}
+
+
+/* ---------- Knapper til projekter ---------- */
+
+#smr {
+	opacity: 0;
+	transition-duration: 0.5s;
+}
+
+#smr:hover {
+	opacity: 1;;
+}
+
+#tag {
+	opacity: 0;
+	transition-duration: 0.5s;
+}
+
+#tag:hover {
+	opacity: 1;;
+}
+
+#wr {
+	opacity: 0;
+	transition-duration: 0.5s;
+}
+
+#wr:hover {
+	opacity: 1;;
+}
+
+/* ---------- Header farve ---------- */
+
+.main-header-bar {
+background-color: #483f36;
+}
+
